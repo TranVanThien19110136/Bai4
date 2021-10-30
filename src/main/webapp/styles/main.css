@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/* properties */
+.return-home:hover{
+    cursor: pointer;
+    background-color: rgba(253, 227, 167, 1);
+}
+
+/* ex1 */
+.container-ex1,
+.container-ex1-2,
+.container-ex2,
+.container-ex2-1{
+    background:rgba(228, 241, 254, 1) ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container-ex2,
+.container-ex2-1{
+    background:rgba(241, 169, 160, 1);
+}
+.box-ex1,
+.box-ex1-2,
+.box-ex2,
+.box-ex2-1{
+    min-height: 100px;
+    width: 500px;
+    padding: 32px 24px;
+    text-align: center;
+    border-radius: 2px;
+    margin: 24px;
+    align-self: center;
+    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+    background-color: aliceblue;
+    color:slategrey;
+}
+.box-ex2,
+.box-ex2{
+    background-color:rgba(236, 236, 236, 1);
+}
+.heading-ex1{
+
+}
+.subheading-ex1,
+.subheading-ex1-2,
+.subheading-ex2,
+.subheading-ex2-1{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #4ecdc4;
+}
+.subheading-ex1-2{
+    color: rgba(242, 120, 75, 1);
+}
+.subheading-ex2{
+    color: rgba(226, 106, 106, 1);
+    font-size: 18px;
+}
+.form-ex1,
+.contentbox-ex1-2,
+.form-ex2{
+    display: flex;
+    flex-direction: column;
+}
+.label-ex1,
+.label-ex1-2,
+.label-ex2{
+    text-align:left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+
+}
+.input-text-ex1,
+.input-text-ex2{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+}
+.input-text-ex1:hover,
+.input-text-ex2:hover{
+    border:1px solid rgba(25, 181, 254, 1);
+}
+.btn-ex1,
+.btn-ex1-2,
+.btn-ex2,
+.btn-ex2-1{
+    width: 100%;
+    height: 36px;
+    margin-top: 20px;
+    background-color: #2691d9;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+.btn-ex1-2,
+.btn-ex2-1{
+    background-color:  rgba(242, 120, 75, 1);
+}
+
+.btn-ex1:hover,
+.btn-ex2:hover{
+    cursor: pointer;
+    background-color: rgb(152, 210, 247);
+}
+
+/* EX1,2 */
+.contentplace-ex1-2{
+    display: flex;
+    flex-direction: column;
+}
+.content1-ex1-2,
+.description-ex1-2{
+    text-align: left;
+}
+.btn-ex1-2:hover,
+.btn-ex2-1:hover{
+    cursor: pointer;
+    background-color: rgba(253, 227, 167, 1);
+}
+
+/* EX2 */
+.h3-ex2{
+    text-align: left;
+}
+.content-ex2{
+    text-align:left;
+    padding: 10px 0;
+}
+.content-ex2 select{
+    padding: 4px;
+    border-radius: 5px;
+}
+
+/* EX4 */
+.background-ex4,
+.background-ex4-1,
+.background-ex4-2,
+.background-ex4-3,
+.background-ex4-4,
+.background-ex3,
+.background-ex3-1{
+    background-image: url(https://images.wallpaperscraft.com/image/single/headphones_table_sound_121712_3840x2160.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.background-ex4-1,
+.background-ex4-2,
+.background-ex4-3,
+.background-ex4-4{
+    background-image: url(https://images.wallpaperscraft.com/image/single/headphones_audio_sound_122152_3840x2160.jpg);
+}
+.background-ex3{
+    background-image: url(https://images.wallpaperscraft.com/image/single/vinyl_record_record_player_139973_3840x2160.jpg);
+}
+.background-ex3-1{
+    background-image: url(https://images.wallpaperscraft.com/image/single/guitar_guitarist_bw_125985_3840x2400.jpg);
+}
+.container-ex4,
+.container-ex4-1,
+.container-ex4-2,
+.container-ex4-3,
+.container-ex4-4,
+.container-ex3,
+.container-ex3-1{
+    position: fixed;
+    transform: translateX(-50%) translateY(30%);
+    left: 50%;
+    width: 25%;
+    height: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+    display: block;
+    z-index: 2;
+    padding:16px 20px;
+}
+.container-ex3{
+    width: 40%;
+}
+.container-ex3-1{
+    width: 70%;
+}
+.heading-ex4{
+    text-align: center;
+}
+.subheading-ex4-1,
+.subheading-ex4-2{
+    color: rgb(103,72,70);
+}
+.or{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(53,66,48);
+    font-weight: 600;
+}
+
+/* EX3 */
+.container-ex3 td,
+.container-ex3-1 td{
+    padding: 5px 10px;
+}
+.container-ex3 input{
+    padding: 4px;
+    background-color: black;
+    color: whitesmoke;
+    border:0;
+    border-radius: 5px;
+}
+.btn-begin-ex3-1{
+    padding: 4px;
+    background-color: black;
+    color: whitesmoke;
+    border:0;
+    border-radius: 5px;
+}
+.btn-end-ex3-1{
+    padding: 4px;
+    background-color: rgba(38, 194, 129, 1);
+    color: whitesmoke;
+    border:0;
+    border-radius: 5px;
+    width: 140px;
+    margin-bottom: 10px;
+}
+.container-ex3 input:hover,
+.container-ex3-1 input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+.container-ex3-1 p{
+    margin-bottom: 20px;
+}
+.btn-end1-ex3{
+    background-color: #2691d9;
+}
+.btn-end2-ex3{
+    background-color: rgba(242, 120, 75, 1);
+}
+.btn-end2-ex3:hover{
+    background-color:#ccc;
+    cursor: pointer;
+}
